@@ -4,21 +4,24 @@
 
 - 什么是观察者模式？
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103655.jpg)
+
 
 - 观察者模式UML
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103713.jpg)
+
 
 - 总结
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103801.jpg)
 
-![](http://3)
 
 ## 2.观察者模式动手篇
 
 - Observer-->接口(interface)
 
-![](http://5)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104629.jpg)
+
 
 - Subject-->抽象类(abstract)
 	- 存放观察者集合ArrayList<Observer>
@@ -26,20 +29,24 @@
 	- dettch(Observer observer)：删除观察者
 	- notifyObserver(String state):通知所有观察者状态已经发生改变,遍历Observer集合，调用update(state)方法
 
-![](http://4)
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104538.jpg)
 
 - 创建Observer子类SunnyObserver
 
-![](http://6)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104855.jpg)
+
 
 - 创建Subject的子类MassageSubject
 
-![](http://7)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104957.jpg)
+
 
 
 - 调用
 
-![](http://8)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425105228.jpg)
+
 
 
 Android中的应用就是点击事件的监听
@@ -48,8 +55,7 @@ attach 相当于setListener
 
 - Java中也有类是的Observer和Observable
 
-![](http://9)
-
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425105602.jpg)
 
 ## 3.课程大纲介绍
 
