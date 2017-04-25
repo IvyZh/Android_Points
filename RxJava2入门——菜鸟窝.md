@@ -4,23 +4,23 @@
 
 - 什么是观察者模式？
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103655.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425103655.jpg)
 
 
 - 观察者模式UML
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103713.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425103713.jpg)
 
 
 - 总结
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425103801.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425103801.jpg)
 
 
 ## 2.观察者模式动手篇
 
 - Observer-->接口(interface)
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104629.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425104629.jpg)
 
 
 - Subject-->抽象类(abstract)
@@ -30,22 +30,22 @@
 	- notifyObserver(String state):通知所有观察者状态已经发生改变,遍历Observer集合，调用update(state)方法
 
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104538.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425104538.jpg)
 
 - 创建Observer子类SunnyObserver
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104855.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425104855.jpg)
 
 
 - 创建Subject的子类MassageSubject
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425104957.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425104957.jpg)
 
 
 
 - 调用
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425105228.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425105228.jpg)
 
 
 
@@ -55,7 +55,7 @@ attach 相当于setListener
 
 - Java中也有类是的Observer和Observable
 
-![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425105602.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425105602.jpg)
 
 ## 3.课程大纲介绍
 
