@@ -1,76 +1,120 @@
 # RxJava 入门
 
-## 1.观察者模式理论篇
+> 2016.10
 
-- 什么是观察者模式？
-
-![](http://1)
-
-- 观察者模式UML
-
-![](http://2)
-
-- 总结
-
-![](http://3)
-
-## 2.观察者模式动手篇
-
-- Observer-->接口(interface)
-
-![](http://5)
-
-- Subject-->抽象类(abstract)
-	- 存放观察者集合ArrayList<Observer>
-	- attach(Observer observer):添加观察者
-	- dettch(Observer observer)：删除观察者
-	- notifyObserver(String state):通知所有观察者状态已经发生改变,遍历Observer集合，调用update(state)方法
-
-![](http://4)
-
-- 创建Observer子类SunnyObserver
-
-![](http://6)
-
-- 创建Subject的子类MassageSubject
-
-![](http://7)
+## 1.基本介绍
+website
 
 
-- 调用
+## 2.快速上手体验
 
-![](http://8)
+- Call<ResponseBody>
 
+配置API
 
-Android中的应用就是点击事件的监听
-
-attach 相当于setListener
-
-- Java中也有类是的Observer和Observable
-
-![](http://9)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425154936.jpg)
 
 
-## 3.课程大纲介绍
+使用
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425155033.jpg)
 
 
-> 学习路线 Okhttp3--->Retrofit2--->RxJava2--->Dragger2--->EventBus--->DataBanding
+
+- Call<User>
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425155119.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425155148.jpg)
 
 
-- 如何学习？
-	- 官方文档
-	- 
-## 4.基本使用
-## 5.线程控制
-## 6.操作符介绍
-## 7.登录后获取用户信息
-## 8.关键词搜索案例
-## 9.防止按钮重复点击案例
-## 10.购物车合并本地和网络数据的案例
-## 11.发送验证码倒计时案例
-## 12.自定义图片缓存框架-1
-## 13.自定义图片缓存框架-2
-## 14.自定义图片缓存框架-3
+报错：转换器
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425155207.jpg)
+
+
+配置Gson转换器
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425155241.jpg)
+
+
+## 3.GET请求介绍
+
+@Query
+
+@Path
+
+@QueryMap
+
+
+## 4.Post请求介绍
+
+- Json
+	- @Body
+- Form
+	- @FormUrlEncoded
+	- @Field
+	- @Multipart
+	- @Part
+
+
+
+- Json形式
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160159.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160315.jpg)
+
+
+- Form表单形式
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160500.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160522.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160634.jpg)
+
+
+修改头信息
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160858.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425160927.jpg)
+
+
+
+## 5.与RxJava结合使用
+
+步骤
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161135.jpg)
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161220.jpg)
+
+
+需求：调用登陆接口，登陆成功之后根据返回的用户id，在调用获取用户信息的接口
+
+
+普通方式：
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161433.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161521.jpg)
+
+
+使用RxJava方式：
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161903.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425161951.jpg)
+
+
+还有一种方式：
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425162216.jpg)
+
+
+
+运行报错：不能在主线程进行网络操作
+
+线程控制：
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425162455.jpg)
+
+
 --------------
 
 
