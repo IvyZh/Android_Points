@@ -3,69 +3,72 @@
 ## 1.快速使用
 github website
 
-![](http://1)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425113830.jpg)
 
 Get请求快速入门
 
-![](http://2)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425114449.jpg)
 
 ## 2.Http协议介绍
 
 - Http是什么？
 
-![](http://3)
-![](http://4)
-![](http://5)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131534.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131547.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131608.jpg)
 
 - 什么是URL？
 
-![](http://6)
-
-
-![](http://7)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131618.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131723.jpg)
 
 - Request
 
-![](http://8)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131745.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131820.jpg)
 
-![](http://9)
 
 - Response
 
-![](http://10)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131840.jpg)
 
 - Http协议请求方法
 
-![](http://11)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131931.jpg)
+
 
 
 
 - Get和Post方法的区别
 
-![](http://12)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425131949.jpg)
+
 
 - 状态码
-![](http://13)
-![](http://14)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425132022.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425132044.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425132059.jpg)
 
-![](http://15)
 
 ## 3.Get请求（获取用户信息为例）
 
-![](http://16)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425133128.jpg)
 
-![](http://17)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425133213.jpg)
 
 ## 4.Post请求（Form表单形式）
 
-![](http://18)
-![](http://19)
-![](http://20)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425133447.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425133703.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425133805.jpg)
+
+
 
 
 ## 5.Post请求（JSON参数形式）
 
-![](http://21)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425134136.jpg)
+
 
 ## 6.文件下载（简单方式）
 
@@ -76,11 +79,13 @@ Get请求快速入门
 - 流读取方式
 
 
-![](http://22)
-![](http://23)
-![](http://24)
-![](http://25)
-![](http://26)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425134601.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425134831.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425134850.jpg)
+
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425135030.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425135130.jpg)
+
 
 ## 7.文件下载（拦截器方式）
 
@@ -94,32 +99,32 @@ Get请求快速入门
 
 - ProgressResponseBody
 
-![](http://27)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141003.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141051.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141101.jpg)
 
-![](http://28)
-
-![](http://29)
 
 - 进度监听Listener
 
-![](http://30)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141227.jpg)
+
 
 - 拦截器使用
 
-![](http://31)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141408.jpg)
+
 
 - 读写文件
 
-![](http://32)
-
-![](http://33)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141550.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/okhttp3/QQ%E6%88%AA%E5%9B%BE20170425141630.jpg)
 
 注：也可以使用拦截器实现文件写到本地
 
 ## 8.OkHttp简单封装1
 ## 9.OkHttp简单封装2
 
-有时间再好好看看这两节的封装思想。
+> 有时间再好好看看这两节的封装思想。
 
 --------------
 
