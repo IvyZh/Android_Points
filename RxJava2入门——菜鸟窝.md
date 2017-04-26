@@ -87,40 +87,41 @@ attach 相当于setListener
 
 ## 4.基本使用
 
-![](http://10)
-![](http://11)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170209.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170258.jpg)
+
 
 步骤
 
-![](http://12)
-
-![](http://13)
-
-![](http://14)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170334.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170406.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170423.jpg)
 
 更简洁的写法：
-![](http://15)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170443.jpg)
+
+
 
 代码：
 
-![](http://16)
-
-![](http://17)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170536.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170645.jpg)
 
 其他用法：
 
 - 被观察者：
 
-![](http://18)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170749.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425170849.jpg)
 
-![](http://19)
 
 
 ## 5.线程控制
 
-![](http://20)
-![](http://21)
-![](http://22)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425173148.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425173210.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425173235.jpg)
+
 
 ## 6.操作符介绍
 
@@ -152,7 +153,8 @@ attach 相当于setListener
 > Map  操作符对原始Observable发射的每一项数据应用一个你选择的函数，然后返回一个发射
 这些结果的Observable
 
-![](http://23)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425204050.jpg)
+
 
 
 案例：登录后获取用户信息
@@ -164,31 +166,32 @@ attach 相当于setListener
 
 先用最原始的方式：
 
-![](http://24)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425204529.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425204847.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425204953.jpg)
 
-![](http://25)
-
-![](http://26)
 
 线程切换：
 
-![](http://27)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425205313.jpg)
+
 
 
 注意：
 
-![](http://28)
-
-![](http://29)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425205425.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425205455.jpg)
 
 需要加上适配
 
 这样的话，只需要这么设置了
-![](http://30)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425210011.jpg)
+
 
 ## 8.关键词搜索案例
 
-![](http://31)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425234735.jpg)
+
 操作符：Debounce
 
 > 仅在过了一段指定时间还没发射数据时才发射一个数据
@@ -197,13 +200,14 @@ attach 相当于setListener
 
 rxbinding 0.4.0 使用的是rxjava1.0 所以要去掉2.0的gradle
 
-![](http://32)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425235147.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425235627.jpg)
 
-![](http://33)
 
 过滤数据：比如搜索条件为空的时候就不需要发起网络请求了
 
-![](http://34)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170425235756.jpg)
+
 
 如何防止数据被覆盖？
 
@@ -211,17 +215,17 @@ switchMap和flatMap使用方法是一样的，只不过switchMap只保留最后�
 
 ## 9.防止按钮重复点击案例
 
-![](http://35)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426000039.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426000144.jpg)
 
-![](http://36)
 
 ## 10.购物车合并本地和网络数据的案例
 
-![](http://37)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426000649.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426000932.jpg)
 
-![](http://38)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426001305.jpg)
 
-![](http://39)
 
 ## 11.发送验证码倒计时案例
 
@@ -229,15 +233,17 @@ CountDownTime 也可以实现
 
 使用RxJava操作符interval
 
-![](http://40)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426001801.jpg)
+
 
 时间问题
 
-![](http://41)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426002021.jpg)
 
 ## 12.自定义图片缓存框架-1
 
-![](http://42)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426002140.jpg)
+
 
 processon.com
 
@@ -245,20 +251,28 @@ processon.com
 
 数据源看做是Observable，使用最近的
 
-![](http://43)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426002906.jpg)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426002937.jpg)
 
-![](http://44)
+
 
 ## 13.自定义图片缓存框架-2
 
 使用效果：
 
-![](http://45)
+![](https://github.com/IvyZh/Android_Points/blob/master/imgs/rxjava2/QQ%E6%88%AA%E5%9B%BE20170426003026.jpg)
 
 
+> LruCache & DiskLru
 
 ## 14.自定义图片缓存框架-3
+
+
+提到了使用依赖注入Dagger可以降低耦合度。
+
+
 --------------
 
+end.
 
 
